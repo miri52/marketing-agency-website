@@ -5,7 +5,7 @@ This is a final project from [Scrimba's Responsive Web Design Bootcamp](https://
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -13,10 +13,12 @@ This is a final project from [Scrimba's Responsive Web Design Bootcamp](https://
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
 ![Homepage - desktop solution](./result/homepage-large.png)
 ![Contact page - desktop solution](./result/contact-large.png)
+![Contact page - mobile solution](./result/contact-mobile.png)
+![Open navbar - mobile solution](./result/nav-mobile.png)
 
 ### Links
 

@@ -10,6 +10,10 @@ body {
   line-height: 1.6;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Typography */
 
 h1,
@@ -32,6 +36,51 @@ strong {
   font-size: 1.125rem;
   color: #000;
   margin-top: 1.25em;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px 0 0;
+  background: #ffe600;
+}
+
+.section-title-center::after {
+  margin: 10px auto 0;
+}
+
+.section-title:first-child {
+  margin-top: 0;
+}
+
+.page-title,
+.subtitle {
+  grid-column: 2 / -2;
+  color: #000;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  justify-self: center;
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  width: 110%;
+  height: 30px;
+  background: #ffe600;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  margin: 0.5em 0 3em;
 }
 
 /* Buttons */
@@ -287,5 +336,32 @@ strong {
 
   .col:first-child {
     grid-column: 2 / span 1;
+  }
+}
+
+/******************
+    Template page
+***********************/
+
+.main-template {
+  padding: 4em 0;
+}
+
+.main-template > * {
+  grid-column: 2 / -2;
+}
+
+.main-image {
+  margin-bottom: 1.5em;
+  box-shadow: 5px 5px 0px #000, 10px 10px 0px #ffe600;
+}
+
+@media (min-width: 600px) {
+  .main-image {
+    grid-column: 2 / 3;
+  }
+
+  .main-text {
+    grid-column: 3 / span 2;
   }
 }

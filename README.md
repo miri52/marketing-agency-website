@@ -17,8 +17,6 @@ This is a final project from [Scrimba's Responsive Web Design Bootcamp](https://
 
 ![Homepage - desktop solution](./result/homepage-large.png)
 ![Contact page - desktop solution](./result/contact-large.png)
-![Contact page - mobile solution](./result/contact-mobile.png)
-![Open navbar - mobile solution](./result/nav-mobile.png)
 
 ### Links
 

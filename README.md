@@ -1,16 +1,35 @@
-# title(){return this.options.title||this.options.name}
+# Marketing Agency Website
 
-## Supporting Scrimba
+This is a final project from [Scrimba's Responsive Web Design Bootcamp](https://scrimba.com/learn/responsive), thus the main focus of this project is CSS and responsiveness.
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+## Table of contents
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-	It would also mean the world to us if you share the courses.  
+## Overview
 
-Happy Coding!
+### Screenshot
+
+![Homepage - desktop solution](./result/homepage-large.png)
+![Contact page - desktop solution](./result/contact-large.png)
+
+### Links
+
+- [Live Site URL](https://miri52.github.io/scrimba-responsive-bootcamp-final-project/)
+
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- Media queries
+- Grid
+
+## Author
+
+- LinkedIn - [Miriama Svítková](https://www.linkedin.com/in/miriama-svitkova)

@@ -311,6 +311,7 @@ strong {
 /* Hero Section */
 
 .hero {
+  background: #131313;
   background: url(../img/hero-bg.jpg);
   background-size: cover;
   background-position: bottom;
